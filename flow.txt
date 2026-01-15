@@ -966,6 +966,8 @@ Don’t force controllers to work for both HTTP and sockets directly. Let the se
 
 so need to chnge codebase
 <====================================>
+
+sockte.to() is io.to() - me
 <====================================>
 <====================================>
 <====================================>
