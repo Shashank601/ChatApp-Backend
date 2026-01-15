@@ -960,6 +960,11 @@ Socket events (joinChat, sendMessage)
 <====================================>
 <====================================>
 <====================================>
+
+💡 Rule of thumb:
+Don’t force controllers to work for both HTTP and sockets directly. Let the service layer be the shared logic.
+
+so need to chnge codebase
 <====================================>
 <====================================>
 <====================================>
