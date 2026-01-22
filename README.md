@@ -1,4 +1,4 @@
-# ChatApp Backend
+# ChatApp ✨
 
 This is a chat app project that was **never fully completed** due to frontend issues.  
 
