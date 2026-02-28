@@ -1,0 +1,742 @@
+[2026-01-15 15:26:11] ERROR: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+[2026-01-15 15:27:05] ERROR: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+[2026-01-15 15:27:39] ERROR: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+[2026-01-15 15:35:28] ERROR: TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+    at file:///C:/Users/shashank/Chat-App/backend/src/controllers/auth.controller.js:9:13
+    at file:///C:/Users/shashank/Chat-App/backend/src/utils/asyncHandler.js:2:21
+    at Layer.handleRequest (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:291:5)
+[2026-01-15 15:36:35] ERROR: TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+    at file:///C:/Users/shashank/Chat-App/backend/src/controllers/auth.controller.js:9:13
+    at file:///C:/Users/shashank/Chat-App/backend/src/utils/asyncHandler.js:2:21
+    at Layer.handleRequest (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:291:5)
+[2026-01-15 15:38:13] ERROR: TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+    at file:///C:/Users/shashank/Chat-App/backend/src/controllers/auth.controller.js:9:13
+    at file:///C:/Users/shashank/Chat-App/backend/src/utils/asyncHandler.js:2:21
+    at Layer.handleRequest (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:291:5)
+[2026-01-15 15:53:09] ERROR: TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+    at file:///C:/Users/shashank/Chat-App/backend/src/controllers/auth.controller.js:14:13
+    at file:///C:/Users/shashank/Chat-App/backend/src/utils/asyncHandler.js:2:21
+    at Layer.handleRequest (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\router\index.js:291:5)
+[2026-01-15 15:55:32] ERROR: Error: username, email and password are required
+    at Module.register (file:///C:/Users/shashank/Chat-App/backend/src/services/auth.service.js:19:21)
+    at file:///C:/Users/shashank/Chat-App/backend/src/controllers/auth.controller.js:15:36
+    at file:///C:/Users/shashank/Chat-App/backend/src/utils/asyncHandler.js:2:21
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+[2026-01-15 15:58:12] ERROR: Error: email and password are required
+    at Module.login (file:///C:/Users/shashank/Chat-App/backend/src/services/auth.service.js:49:21)
+    at file:///C:/Users/shashank/Chat-App/backend/src/controllers/auth.controller.js:27:36
+    at file:///C:/Users/shashank/Chat-App/backend/src/utils/asyncHandler.js:2:21
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+[2026-01-15 16:24:55] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:376:14)
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+[2026-01-15 16:25:46] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:376:14)
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+[2026-01-15 16:26:20] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-15 16:27:11] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:376:14)
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+[2026-01-15 16:27:35] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:376:14)
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+[2026-01-15 16:30:20] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:376:14)
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+[2026-01-15 16:42:45] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-17 10:19:38] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-17 10:19:38] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-17 10:20:00] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/Chat-App/backend/src/services/auth.service.js:57:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-17 10:20:22] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/Chat-App/backend/src/services/auth.service.js:65:21)
+    at async file:///C:/Users/shashank/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-17 10:20:25] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-17 10:20:25] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-17 10:20:35] ERROR: Error: Email already registered
+    at Module.register (file:///C:/Users/shashank/Chat-App/backend/src/services/auth.service.js:26:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/Chat-App/backend/src/controllers/auth.controller.js:15:18
+[2026-01-17 10:20:36] ERROR: Error: Email already registered
+    at Module.register (file:///C:/Users/shashank/Chat-App/backend/src/services/auth.service.js:26:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/Chat-App/backend/src/controllers/auth.controller.js:15:18
+[2026-01-19 12:46:18] ERROR: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "shashank" }
+    at InsertOneOperation.handleOk (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongodb\lib\operations\execute_operation.js:216:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async executeOperation (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongodb\lib\operations\execute_operation.js:80:16)
+    at async Collection.insertOne (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongoose\lib\model.js:398:16)
+    at async model.save (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongoose\lib\model.js:609:5)
+    at async C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongoose\lib\model.js:2714:9
+    at async Promise.all (index 0)
+    at async model.create (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongoose\lib\model.js:2699:11)
+[2026-01-19 12:46:51] ERROR: MongoServerError: E11000 duplicate key error collection: test.users index: username_1 dup key: { username: "Rishu" }
+    at InsertOneOperation.handleOk (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongodb\lib\operations\execute_operation.js:216:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async executeOperation (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongodb\lib\operations\execute_operation.js:80:16)
+    at async Collection.insertOne (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongodb\lib\collection.js:154:16)
+    at async model.$__save (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongoose\lib\model.js:398:16)
+    at async model.save (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongoose\lib\model.js:609:5)
+    at async C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongoose\lib\model.js:2714:9
+    at async Promise.all (index 0)
+    at async model.create (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\mongoose\lib\model.js:2699:11)
+[2026-01-19 12:51:13] ERROR: Error: Email already registered
+    at Module.register (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:17:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:15:18
+[2026-01-19 12:51:27] ERROR: Error: Email already registered
+    at Module.register (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:17:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:15:18
+[2026-01-19 13:03:01] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-19 13:07:36] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-19 17:58:30] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:376:14)
+    at router.process_params (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+[2026-01-19 18:26:27] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-19 18:26:34] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-19 18:35:24] ERROR: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+[2026-01-19 19:03:54] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-19 19:03:54] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-19 19:14:58] ERROR: Error: Email or Username already registered
+    at Module.register (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:17:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:15:18
+[2026-01-19 19:15:00] ERROR: Error: Email or Username already registered
+    at Module.register (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:17:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:15:18
+[2026-01-19 19:58:18] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:53:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-19 20:02:41] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:53:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-19 20:03:21] ERROR: Error: Chat not found
+    at getChatMessages (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/chat.service.js:47:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/chat.controller.js:21:22
+[2026-01-19 20:05:36] ERROR: Error: Chat not found
+    at getChatMessages (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/chat.service.js:47:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/chat.controller.js:21:22
+[2026-01-22 11:15:47] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-22 11:15:47] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\express\lib\router\index.js:47:12)
+[2026-01-22 11:20:02] ERROR: Error: Email or Username already registered
+    at Module.register (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:17:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:15:18
+[2026-01-22 11:20:23] ERROR: Error: Email or Username already registered
+    at Module.register (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:17:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:15:18
+[2026-01-22 22:18:13] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:18:13] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:18:14] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:18:14] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:22:43] ERROR: Error: Email or Username already registered
+    at Module.register (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:17:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:15:18
+[2026-01-22 22:37:49] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:53:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-22 22:56:47] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:53:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-22 22:57:04] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:53:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-22 22:57:06] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:53:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-22 22:57:13] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:53:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-22 22:58:11] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:58:11] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:600:14)
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:664:3)
+[2026-01-22 22:58:41] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:58:41] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:600:14)
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:664:3)
+[2026-01-22 22:58:43] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:58:43] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:600:14)
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:664:3)
+[2026-01-22 22:58:45] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:58:45] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:600:14)
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:664:3)
+[2026-01-22 22:59:16] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:59:16] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:600:14)
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:664:3)
+[2026-01-22 22:59:17] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:59:17] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:600:14)
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:664:3)
+[2026-01-22 22:59:22] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:59:22] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:600:14)
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:664:3)
+[2026-01-22 22:59:27] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 22:59:27] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:600:14)
+    at param (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:664:3)
+[2026-01-22 23:03:48] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 23:05:17] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 23:05:17] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-22 23:14:02] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:53:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-22 23:17:01] ERROR: Error: User not found
+    at Module.getMe (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/user.service.js:13:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/user.controller.js:6:18
+[2026-01-22 23:17:01] ERROR: Error: User not found
+    at Module.getMe (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/user.service.js:13:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/user.controller.js:6:18
+[2026-01-22 23:17:42] ERROR: Error: User not found
+    at Module.getMe (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/user.service.js:13:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/user.controller.js:6:18
+[2026-01-22 23:17:42] ERROR: Error: User not found
+    at Module.getMe (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/user.service.js:13:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/user.controller.js:6:18
+[2026-01-22 23:36:48] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:53:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-23 09:04:02] ERROR: Error: Invalid credentials
+    at Module.login (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:53:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:27:18
+[2026-01-23 09:37:26] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-23 09:37:26] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-23 09:37:26] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-01-23 09:37:26] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-02-17 12:26:44] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-02-17 12:26:44] ERROR: Error: Invalid token
+    at verifyToken (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/middlewares/verifyToken.js:31:17)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:291:5)
+    at router.handle (C:\Users\shashank\OneDrive\Desktop\Chat-App\backend\node_modules\router\index.js:186:3)
+[2026-02-17 12:27:03] ERROR: Error: Email or Username already registered
+    at Module.register (file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/services/auth.service.js:17:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/shashank/OneDrive/Desktop/Chat-App/backend/src/controllers/auth.controller.js:15:18
