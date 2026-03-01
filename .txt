@@ -1531,3 +1531,8 @@ Not you.
 
 "wait so its like my site sending a req to bank.com now the req will get all the credentials atteached auto matically now bank.com will check whether origin is whats expected the original frontend.
 now, if not it will respond 401 or something"
+
+<=============================>
+
+next()	Continue to next normal middleware
+next(err)	Skip to error-handling middleware (err, req, res, next)
