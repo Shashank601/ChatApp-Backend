@@ -6,10 +6,10 @@ import { IS_PROD } from '../config/env.js';
  * POST /register
  */
 export const registerController = asyncHandler(async (req, res) => {
-    console.log('URL:', req.originalUrl);
-    console.log('METHOD:', req.method);
-    console.log('HEADERS:', req.headers['content-type']);
-    console.log('BODY:', req.body);
+    // console.log('URL:', req.originalUrl);
+    // console.log('METHOD:', req.method);
+    // console.log('HEADERS:', req.headers['content-type']);
+    // console.log('BODY:', req.body);
 
     const { username, email, password } = req.body;
     const user = await authService.register({ username, email, password });
