@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
 import User from '../models/User.model.js';
 import { JWT_SECRET, JWT_EXPIRES_IN } from '../config/env.js';
-import bcrypt from 'bcryptjs';
+import bcrypt from 'bcryptjs'; // forgot to use i think its is used in model itself
 
 
 export async function register({ username, email, password }) {
