@@ -61,7 +61,7 @@ export const AuthProvider = ({ children }) => {
     return () => {
       window.removeEventListener('storage', handleStorageChange);
     };
-  }, [navigate]);
+  }, []);
 
   if (loading) {
     return null; // or a loader component
